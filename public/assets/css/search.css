@@ -1,0 +1,188 @@
+.link-head {
+    /* background-color: #000; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-left: -70px;
+}
+
+.link-head a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.link-head span {
+    display: inline-block;
+    width: 2px;
+    height: 50px;
+    background-color: #8390A2;
+    margin: 0 10px;
+}
+
+.link-head a:hover {
+    color: var(--Soft-Red);
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.albums-search img {
+    width: 200px;
+}
+
+.preview-albums-search {
+    width: 400px;
+    height: 400px;
+    /* margin-left: 10px;
+    margin-bottom: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #000; */
+}
+
+.preview-albums-search {
+    transition: filter 0.3s ease;
+}
+
+.preview-albums-search .view-count-like-comment {
+    display: none;
+    position: absolute;
+    margin-left: -390px;
+    margin-top: 20px;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.preview-albums-search .view-count-like-comment i {
+    display: none;
+    position: relative;
+}
+
+.preview-albums-search .view-count-like-comment span {
+    display: none;
+}
+
+.preview-albums-search:hover .view-count-like-comment span {
+    display: inline;
+}
+
+.preview-albums-search:hover .view-count-like-comment {
+    display: inline;
+}
+
+.preview-albums-search:hover .view-count-like-comment i {
+    display: inline;
+}
+
+.preview-albums-search:hover {
+    filter: brightness(0.3);
+}
+
+.view-album-search {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 60px; */
+    width: 400px;
+    height: 400px;
+    /* background-color: aqua; */
+}
+
+.wrap-album-search p {
+    text-align: center;
+    font-size: 25px;
+}
+
+/* .action-album-search {
+    display: none;
+    margin-top: -20px;
+    position: absolute;
+    padding: 5px;
+    color: #fff;
+}
+
+.wrap-album-search:hover .action-album-search {
+    display: flex;
+}
+
+.wrap-album-search:hover .action-album-search a {
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+} */
+
+.no-post-available-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6c757d;
+    /* margin-left: 150px; */
+    width: 1000px;
+}
+
+.posts-search {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.posts-search img {
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+.preview-posts-search {
+    width: 400px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview-posts-search img {
+    transition: filter 0.3s ease;
+}
+
+.preview-posts .view-count-like-comment {
+    display: none;
+    position: absolute;
+    margin-left: -390px;
+    margin-top: 20px;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.preview-posts .view-count-like-comment i {
+    display: none;
+    position: relative;
+}
+
+.preview-posts .view-count-like-comment span {
+    display: none;
+}
+
+.preview-posts:hover .view-count-like-comment span {
+    display: inline;
+}
+
+.preview-posts:hover .view-count-like-comment {
+    display: inline;
+}
+
+.preview-posts:hover .view-count-like-comment i {
+    display: inline;
+}
+
+.preview-posts:hover img {
+    filter: brightness(0.3);
+}

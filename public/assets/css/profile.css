@@ -1,0 +1,318 @@
+.content {
+    width: 100%;
+    flex-direction: column;
+    padding-left: 75px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 95px;
+}
+
+.profile-img img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.profile-desc .desc-head {
+    margin-left: 115px;
+    margin-top: 45px;
+}
+
+.profile-desc .desc-head span {
+    font-size: 25px;
+}
+
+.profile-desc .desc-head .following {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 60px;
+    background-color: #363636;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 38px;
+    padding-right: 38px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.profile-desc .desc-head .message {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    background-color: #363636;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 38px;
+    padding-right: 38px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.desc-post-follow {
+    margin-top: 25px;
+    margin-left: 55px;
+    display: flex;
+}
+
+.desc-post-follow span {
+    font-size: 20px;
+}
+
+.desc-post-follow .followers {
+    margin-left: 30px;
+}
+
+.desc-post-follow .likes {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.desc-body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 115px;
+    margin-top: 15px;
+}
+
+.album {
+    margin-left: 60px;
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album span {
+    height: 100px;
+    width: 100px;
+}
+
+.album img {
+    height: 50px;
+    width: 50px;
+}
+
+.album p {
+    text-align: center;
+    color: black;
+}
+
+.album .view-album {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 60px; */
+}
+
+.wrap-album {
+    margin-left: 60px;
+    /* background-color: #ff842b; */
+    width: 100px;
+}
+
+/* .album i {
+    font-size: 30px;
+    margin-left: 60px;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    padding: 35px;
+} */
+
+.button-create button {
+    font-size: 30px;
+    margin-left: 60px;
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 35px;
+    background-color: white;
+}
+
+.album input {
+    width: 150px;
+    height: 25px;
+}
+
+.line {
+    margin-top: 97px;
+    margin-left: 60px;
+    display: inline-block;
+    width: 1210px;
+    height: 1px;
+    background-color: #8390A2;
+}
+
+.movie {
+    width: 90%;
+    height: 400px;
+    margin: 0 40px;
+    padding-top: 120px;
+}
+
+
+.tm {
+    margin-left: 10px;
+}
+
+.page-title {
+    color: #0d0d0d;
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+/* slider */
+
+#glide {
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+#btn {
+    margin-top: 35px;
+    font-size: 50px;
+    color: #141412;
+}
+
+#btn:hover {
+    color: #ff842b;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.posts img {
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+.preview-posts {
+    width: 400px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview-posts img {
+    transition: filter 0.3s ease;
+}
+
+/* .img-post:hover img {
+    filter: blur(5px);
+} */
+
+.delete-button {
+    display: none;
+    /* position: absolute;
+    top: 10px;
+    left: 10px;
+    transform: translate(-50%, -50%); */
+}
+
+.preview-posts:hover .delete-button {
+    display: inline-block;
+}
+
+
+.album-slider {
+    position: relative;
+}
+
+.albums {
+    display: flex;
+    width: max-content;
+    /* Biarkan seluruh daftar album muncul dalam satu baris */
+}
+
+.album {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    /* Jarak antar album */
+}
+
+/* .action-album {
+    display: none;
+    transition: 2s ease-in-out;
+}
+
+.wrap-album:hover .action-album {
+    margin-left: 6px;
+    display: block;
+    font-size: 25px;
+} */
+
+.action-album {
+    display: none;
+    margin-top: -20px;
+    position: absolute;
+    padding: 5px;
+    color: #fff;
+}
+
+.action-album-view-user {
+    display: none;
+    margin-top: -20px;
+    position: absolute;
+    padding: 5px;
+    color: #fff;
+}
+
+.wrap-album:hover .action-album {
+    display: flex;
+}
+
+.wrap-album:hover .action-album-view-user {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-album:hover .action-album a {
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.preview-posts .view-count-like-comment {
+    display: none;
+    position: absolute;
+    margin-left: -390px;
+    margin-top: 20px;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.preview-posts .view-count-like-comment i {
+    display: none;
+    position: relative;
+}
+
+.preview-posts .view-count-like-comment span {
+    display: none;
+}
+
+.preview-posts:hover .view-count-like-comment span {
+    display: inline;
+}
+
+.preview-posts:hover .view-count-like-comment {
+    display: inline;
+}
+
+.preview-posts:hover .view-count-like-comment i {
+    display: inline;
+}
+
+.preview-posts:hover img {
+    filter: brightness(0.3);
+}
